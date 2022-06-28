@@ -53,7 +53,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    max-width: 1140px;
     height: 2.5rem;
     justify-content: space-between;
   }
@@ -73,9 +72,10 @@
   }
 
   .overlay {
+    display: none;
     position: fixed;
     width: 100%;
-    height: 592px;
+    height: 512px;
     top: 0;
     left: 0;
     right: 0;
@@ -84,20 +84,17 @@
     backdrop-filter: blur(4px);
   }
   
-  .overlay .active {
-    opacity: 0.6;
-    pointer-events: all;
-  }
-
   .navbar-items {
     list-style: none;
-    display: flex;
+    text-decoration: none;
+    display: none;
     flex-direction: row;
     width: 500px;
     justify-content: space-around;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     color: grey;
+    gap: 20px;
   }
 
   .navbar-items li:first-child {
@@ -174,7 +171,7 @@
   }
 
   .page-schedule {
-    width: 100%;
+    width: 95%;
     margin: 20px;
     background: url(./images/programs-bg.jpeg);
     background-repeat: no-repeat;
@@ -213,6 +210,20 @@
   .daily-programs li p {
     color: #d3d3d3;
   }
+
+  .daily-programs li:last-child {
+    background-color: #ec5242;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+  }
+
+.page-join span {
+  margin-left: 5px;
+  padding: 15px;
+}
 
 .speakers-section {
   width: 100%;
@@ -323,7 +334,7 @@
 }
 
 .page-sponsors {
-  width: 100%;
+  width: 98%;
   background-color: #272a31;
   left: 0;
   right: 0;
@@ -342,29 +353,22 @@
   flex-direction: row;
   list-style: none;
   background-color: #272a31;
-  justify-content: center;
-  align-items: center;
+  padding-left: 9px;
+  padding-right: 9px;
 }
 
 .page-sponsors ul li {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  padding: 5px;
-}
-
-.page-sponsors ul span {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  color: grey;
-  margin-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 10px;
 }
 
 .page-footer {
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
-    height: 120px;
+    height: 100px;
     left: 0;
     right: 0;
   }
@@ -373,14 +377,213 @@
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    height: 56px;
+    font-size: 16px;
+    height: 46px;
   }
 
-  .page-footer p {
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    }
+
+  .logo-footer p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     color: #272a31;
+    justify-content: center;
+    align-self: center;
   }
+
+  .page-one-about {
+    width: 100%;
+    height: 570px;
+    background-color: #e5e5e5;
+    background-image: url('#');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .page-one-about h1 {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 26px;
+  }
+
+  .page-desc-about {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border: 1px solid grey;
+    padding: 30px;
+    background-color: #fff;
+  }
+
+  .page-one-about p {
+    color: #ec5242;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 46px;
+    margin-top: 20px;
+  }
+
+.page-contact {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    margin-left: 16px;
+    padding: 20px;
+  }
+
+.page-contact span {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.page-logo {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+.page-logo h2 {
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 56px;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-logo p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 26px;
+  padding: 20px;
+}
+
+.about-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 96px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.about-logo img {
+  width: 120px;
+  height: 76px;
+}
+
+.logo-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-details h2 {
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logo-details p {
+  margin-top: 0;
+  text-decoration: overline  underline;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 80;
+  font-size: 10px;
+}
+
+.page-news {
+  width: 100%;
+  background-color: #fff;
+}
+
+.page-news h4 {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 36px;
+}
+
+.page-news p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.past-projects {
+  display: flex;
+  margin: 10px;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-project {
+  background-image: url('./images/about-project-one.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-blend-mode: darken;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.second-project {
+  background-image: url('./images/about-project-two.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  background-blend-mode: darken;
+  background-color: rgba(255, 0, 0, 0.6);
+}
+
+.past-projects h5 {
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 96px;
+  margin-bottom: 5px;
+}
+
+.past-projects p {
+  color: #d3d3d3;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 46px;
+  justify-content: center;
+  align-items: center;
+}
