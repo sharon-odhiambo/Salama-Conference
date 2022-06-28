@@ -1,9 +1,3 @@
-:root {
-    --primary-color: #ec5242;
-    --paragraph-color: #272a31;
-    --grey-bg-color: #d3d3d3;
-  }
-  
   .body {
     font-family: 'Lato', sans-serif;
     margin: auto;
