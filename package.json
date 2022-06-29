@@ -1,5 +1,5 @@
 {
-  "name": "my-portfolio-site",
+  "name": "salama-conference-capstone-project",
   "version": "1.0.0",
   "description": "-This is my first portfolio site using Microverse templates",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sharon-odhiambo/My-Portfolio-Site.git"
+    "url": "git+https://github.com/sharon-odhiambo/Salama-Conference-Capstone-Project.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sharon-odhiambo/My-Portfolio-Site/issues"
+    "url": "https://github.com/sharon-odhiambo/Salama-Conference-Capstone-Project/issues"
   },
-  "homepage": "https://github.com/sharon-odhiambo/My-Portfolio-Site#readme",
+  "homepage": "https://github.com/sharon-odhiambo/Salama-Conference-Capstone-Project#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
