@@ -56,5 +56,4 @@ Give a ⭐️ if you like this project!
 - My family's support and assistance whenever was needed.
 
 ## 📝 License
-
-This project is [CC](.LICENSE) licensed.
+This project is [CC](./LICENSE.txt) licensed.
