@@ -549,7 +549,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 2rem;
-  margin-left: 146px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 5px;
 }
 
@@ -559,7 +560,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  margin-left: 46px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
