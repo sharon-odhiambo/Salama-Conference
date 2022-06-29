@@ -47,6 +47,7 @@ function createSpeakers(featuredSpeakers) {
   const speakersList = document.querySelector('.speakers-section');
   for (let i = 0; i < featuredSpeakers.length; i += 1) {
     const speakers = `
+    <div class="speakers">
     <ul class="speakers-list">
         <li class="speaker-sp">
             <div class="speaker-image-${featuredSpeakers[i].id}"></div>
@@ -56,7 +57,7 @@ function createSpeakers(featuredSpeakers) {
             <p class="speaker-description">${featuredSpeakers[i].speakerDescription}</p>
             </div>
         </li>
-    </ul>`;
+    </ul></div>`;
     speakersList.innerHTML += speakers;
   }
 }
@@ -66,6 +67,7 @@ const hamburgerIcon = document.querySelector('.hamburger-menu');
 const exitButton = document.querySelector('.exit-btn');
 const upperSection = document.querySelector('.overlay');
 const mobileMenu = document.querySelector('.navbar-items');
+const menuItems = document.querySelectorAll('.menu-items');
 // Open Mobile Menu
 hamburgerIcon.addEventListener('click', () => {
   mobileMenu.style.display = 'block';
@@ -79,4 +81,13 @@ exitButton.addEventListener('click', () => {
   mobileMenu.style.display = 'none';
   exitButton.style.display = 'none';
   upperSection.style.display = 'none';
+});
+// Close Menu Items
+menuItems.forEach((menuItem) => {
+  menuItem.addEventListener('click', () => {
+    upperSection.style.display = 'none';
+    exitButton.style.display = 'none';
+    mobileMenu.style.display = 'none';
+    hamburgerIcon.style.display = 'block';
+  });
 });
