@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .top-nav {
   display: none;
   width: 100%;
@@ -179,7 +180,7 @@
 }
 
 .page-schedule span {
- border-bottom: 3px solid #ec5242;
+  border-bottom: 3px solid #ec5242;
 }
 
 .daily-programs li {
@@ -429,7 +430,7 @@
   border: 1px solid #fff;
   padding: 30px;
   background-color: #d3d3d3;
-  color:#272a31;
+  color: #272a31;
 }
 
 .page-one-about p {
@@ -449,7 +450,7 @@
   font-size: 12px;
   margin-left: 16px;
   padding: 20px;
-  color:#272a31;
+  color: #272a31;
 }
 
 .page-contact span {
@@ -481,7 +482,7 @@
   font-size: 12px;
   margin-left: 26px;
   padding: 20px;
-  color:#272a31;
+  color: #272a31;
 }
 
 .page-logo span {
@@ -538,7 +539,7 @@
   font-weight: 100;
   font-size: 16px;
   margin: 36px;
-  color:#272a31;
+  color: #272a31;
 }
 
 .page-news span {
@@ -551,7 +552,7 @@
   font-weight: 50;
   font-size: 12px;
   margin-left: 12px;
-  color:#272a31;
+  color: #272a31;
 }
 
 .past-projects {
@@ -728,7 +729,7 @@
     font-size: 22px;
     margin-left: 256px;
   }
-  
+
   .page-one h1 {
     font-family: 'COCOGOOSE', sans-serif;
     font-style: normal;
@@ -736,31 +737,26 @@
     font-size: 3.5rem;
     margin-left: 226px;
   }
-  
+
   .page-desc {
     font-family: 'COCOGOOSE', sans-serif;
     font-style: normal;
     font-weight: 10;
     font-size: 12px;
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 140px;
   }
-  
+
   .page-date {
     margin-left: 16px;
     padding: 25px;
   }
-  
+
   .page-date span {
     font-family: 'COCOGOOSE', sans-serif;
     font-style: normal;
     font-weight: 10;
     font-size: 12px;
-  }
-
-  .page-desc {
-    margin-left: 26px;
-    margin-right: 150px;
   }
 
   .page-schedule {

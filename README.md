@@ -51,9 +51,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Orginal design by [Cindy Shin in Benance](https://www.behance.net.adagio07)
 - Hat tip to anyone whose code was used
 - Big thanks to the microverse community with a special mention of my coding partners, morning session teams, standup teams and reviewers.
 - My family's support and assistance whenever was needed.
 
 ## 📝 License
-This project is [CC](./LICENSE.txt) licensed.
+This project is [MIT](./LICENSE.txt) licensed.
