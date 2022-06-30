@@ -179,9 +179,7 @@
 }
 
 .page-schedule span {
-  background-color: #ec5242;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
+ border-bottom: 3px solid #ec5242;
 }
 
 .daily-programs li {
@@ -344,8 +342,7 @@
 
 .speaker-header span,
 .sponsors-header span {
-  background: #ec5242;
-  margin-bottom: 5px;
+  border-bottom: 3px solid #ec5242;
   padding-bottom: 5px;
 }
 
@@ -472,7 +469,7 @@
   font-family: 'COCOGOOSE', sans-serif;
   font-style: normal;
   font-weight: 100;
-  margin-left: 56px;
+  margin: 36px;
   justify-content: center;
   align-items: center;
 }
@@ -485,6 +482,10 @@
   margin-left: 26px;
   padding: 20px;
   color:#272a31;
+}
+
+.page-logo span {
+  border-bottom: 2px solid #ec5242;
 }
 
 .about-logo {
@@ -536,8 +537,12 @@
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
-  margin-left: 36px;
+  margin: 36px;
   color:#272a31;
+}
+
+.page-news span {
+  border-bottom: 3px solid #ec5242;
 }
 
 .page-news p {
@@ -703,6 +708,7 @@
   .navbar-items li:last-child {
     border: 1px solid #ec5242;
     border-width: thick;
+    padding: 7px;
   }
 
   .menu-items a {
@@ -763,7 +769,7 @@
     height: 350px;
   }
 
-  .page-schedule span {
+  .page-schedule h2 {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -808,16 +814,12 @@
     margin-right: 76px;
   }
 
-  .speakers-section span {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+  .speakers-section h4 {
     margin-top: 10px;
     font-size: 22px;
-    margin-left: 360px;
   }
 
-  .page-sponsors span {
+  .page-sponsors h5 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -863,9 +865,6 @@
 
   .page-logo h2 {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center;
-    align-self: center; */
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 18px;
     font-weight: 400;
