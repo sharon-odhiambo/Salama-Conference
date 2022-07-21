@@ -1,7 +1,7 @@
 
 
 # Portfolio-Site
--This is my capstone project at Microverse as a beginner software developer. It's a conference page to speak about Gender-Based-Violence and Sexual Abuse for better treatment of victims and reducing abuse cases. The project utilized a design by Cindy Shin.
+-Salama Conference is a responsive web design of a fictional conference. It's a conference page to speak about Gender-Based-Violence and Sexual Abuse for better treatment of victims and reducing abuse cases. The project utilized a design by Cindy Shin.
 
 ## Built With
 
