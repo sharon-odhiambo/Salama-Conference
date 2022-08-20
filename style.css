@@ -101,7 +101,7 @@
 }
 
 .top-background {
-  background-image: url(./images/head-background.webp);
+  background-image: url(./images/3.jpg);
   background-position: center;
   background-size: cover;
   height: 650px;
@@ -147,7 +147,7 @@
 }
 
 .page-date {
-  color: #272a31;
+  color: #d3d3d3;
   font-family: 'COCOGOOSE', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -450,7 +450,7 @@
   font-size: 12px;
   margin-left: 16px;
   padding: 20px;
-  color: #272a31;
+  color: #d3d3d3;
 }
 
 .page-contact span {
@@ -540,10 +540,6 @@
   font-size: 16px;
   margin: 36px;
   color: #272a31;
-}
-
-.page-news span {
-  border-bottom: 3px solid #ec5242;
 }
 
 .page-news p {
