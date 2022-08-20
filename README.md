@@ -29,7 +29,7 @@ $ cd My-Portfolio-Site
 
 ### Live Demo
 
-Live Version - https://sharon-odhiambo.github.io/
+Live Version - https://aesthetic-salama-conference.netlify.app/
 
 ## Author
 
